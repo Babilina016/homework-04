@@ -4,25 +4,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.main-container {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f6f5;
-  margin: 400px;
-  height: 400px;
+  min-height: 100dvh;
 }
-
-.text-box {
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 555px;
-  height: 348px;
-  padding-right: 165px;
-  padding-left: 165px;
-  padding: 0px 78.5px;
+  align-items: center;
+  background-color: #f7f6f5;
+  max-width: 367px;
+  width: 100%;
+  margin: 16px;
+}
+
+.text.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 16px;
   text-align: center;
   background-color: #f7f6f5;
 }
@@ -32,6 +35,18 @@
   margin-bottom: 32px;
   background-color: #f7f6f5;
 }
-.img {
-  background-color: #a2c8d1#7DABB2;
+.meeting image {
+  width: 367px;
+  height: 220px;
+  object-fit: cover;
+}
+.profileImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.profileImageCameroon {
+  display: flex;
+  align-items: center center;
+  align-items: center;
 }
