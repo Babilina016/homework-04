@@ -3,7 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
+ @font-face{
+  src: url(fonts/LexendDeca-Regular.ttf);
+  font-family: LexendDeca-Regular;
+
+  }
+
 body {
   display: flex;
   justify-content: center;
@@ -18,35 +26,47 @@ body {
   background-color: #f7f6f5;
   max-width: 367px;
   width: 100%;
-  margin: 16px;
-}
+  border-radius: 8px;
+  overflow: hidden;
+ 
 
-.text.box {
+
+.text-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 16px;
-  text-align: center;
+  padding: 24px 16px 16px;
   background-color: #f7f6f5;
+
+}
+.text-box h3 {
+  font-size: 24px;
+  color: #5468E7;
+  font-family: LexendDeca-Regular;
+
 }
 
 .main-description {
-  margin-top: 24px;
-  margin-bottom: 32px;
-  background-color: #f7f6f5;
+  margin-top: 14px;
+  margin-bottom: 23px;
+  color: #232340;
+   
 }
-.meeting image {
+.image{
   width: 367px;
   height: 220px;
   object-fit: cover;
 }
-.profileImage {
+.profile Image {
   width: 48px;
   height: 48px;
-  border-radius: 50%;
+  
+  
 }
 .profileImageCameroon {
   display: flex;
   align-items: center center;
   align-items: center;
+  margin-right: 8px;
+  
 }
