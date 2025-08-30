@@ -3,20 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
- @font-face{
-  src: url(fonts/LexendDeca-Regular.ttf);
-  font-family: LexendDeca-Regular;
-
-  }
+@font-face {
+  font-family: "LexendDeca-Regular";
+  src: url("./fonts/LexendDeca-Regular.ttf");
+}
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
+  font-family: "LexendDeca-Regular", Arial, Helvetica, sans-serif;
 }
 .main-container {
   display: flex;
@@ -28,8 +27,7 @@ body {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
- 
-
+}
 
 .text-box {
   display: flex;
@@ -37,36 +35,39 @@ body {
   justify-content: center;
   padding: 24px 16px 16px;
   background-color: #f7f6f5;
-
 }
 .text-box h3 {
   font-size: 24px;
-  color: #5468E7;
-  font-family: LexendDeca-Regular;
-
+  color: #5468e7;
+  font-weight: 400;
 }
 
 .main-description {
   margin-top: 14px;
   margin-bottom: 23px;
   color: #232340;
-   
+  font-size: 14px;
 }
-.image{
+
+.image {
   width: 367px;
   height: 220px;
   object-fit: cover;
 }
-.profile Image {
+.profileImage {
   width: 48px;
   height: 48px;
-  
-  
+  border-radius: 50%;
+  margin-right: 8px;
 }
-.profileImageCameroon {
+
+.card-name-splitter {
+  margin: 0px 8px;
+}
+.profile-image-cameroon {
   display: flex;
   align-items: center center;
   align-items: center;
-  margin-right: 8px;
-  
+  padding: 0px 16px 16px;
+  color: #7676b2;
 }
